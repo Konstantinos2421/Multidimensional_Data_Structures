@@ -1,13 +1,9 @@
 # Multidimensional Data Structures
 
-This project provides C++ implementations of multidimensional data structures—specifically **KD-Trees**, **Quadtrees**, and **R-Trees**—alongside **Locality-Sensitive Hashing (LSH)** for 5D data. 
-
-The underlying dataset consists of a cleaned and structured collection of movie metadata sourced from **The Movie Database (TMDB)**, covering films released between 1900 and 2025. 
+This project provides C++ implementations of multidimensional data structures—specifically **KD-Trees**, **Quadtrees**, and **R-Trees**—alongside **Locality-Sensitive Hashing (LSH)** for 5D data. The dataset consists of a cleaned and structured collection of movie metadata sourced from **The Movie Database (TMDB)**, covering films released between 1900 and 2025. 
 
 The original dataset is available on Kaggle:  
 [Kaggle Movies Dataset](https://www.kaggle.com/datasets/mustafasayed1181/movies-metadata-cleaned-dataset-19002025)
-
----
 
 ## Project Structure
 
@@ -19,18 +15,16 @@ The original dataset is available on Kaggle:
 - **Rtree.cpp**: Implementation and execution entry point for R-Trees.
 - **LSH.cpp**: Implementation of Locality-Sensitive Hashing (LSH) for similarity search.
 
----
-
 ## Execution Instructions
 
 The main objective of this project is to perform complex range filtered similarity queries, such as:
 
 > *"Find the Top-N most similar production companies for movies that meet the following criteria:*
-> - *Runtime: 30 to 60 minutes*
-> - *Vote Average: 3 to 5*
-> - *Popularity: 3 to 6*
-> - *Original Language: 'US' or 'GB'*
-> - *Release Year: 2000 to 2020"*
+> *Runtime: 30 to 60 minutes*
+> *Vote Average: 3 to 5*
+> *Popularity: 3 to 6*
+> *Original Language: 'US' or 'GB'*
+> *Release Year: 2000 to 2020"*
 
 ### Steps to Run:
 
