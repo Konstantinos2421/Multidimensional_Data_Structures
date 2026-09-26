@@ -19,12 +19,12 @@ The original dataset is available on Kaggle:
 
 The main objective of this project is to perform complex range filtered similarity queries, such as:
 
-> *"Find the Top-N most similar production companies for movies that meet the following criteria:*
-> *Runtime: 30 to 60 minutes*
-> *Vote Average: 3 to 5*
-> *Popularity: 3 to 6*
-> *Original Language: 'US' or 'GB'*
-> *Release Year: 2000 to 2020"*
+> *"Find the Top-N most similar production companies for movies that meet the following criteria:*\
+> *Runtime: 30 to 60 minutes*\
+> *Vote Average: 3 to 5*\
+> *Popularity: 3 to 6*\
+> *Original Language: 'US' or 'GB'*\
+> *Release Year: 2000 to 2020"*\
 
 ### Steps to Run:
 
