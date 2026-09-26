@@ -1,6 +1,6 @@
 # Multidimensional Data Structures
 
-This project provides C++ implementations of multidimensional data structures—specifically **KD-Trees**, **Quadtrees**, and **R-Trees**—alongside **Locality-Sensitive Hashing (LSH)** for 5D data. The dataset consists of a cleaned and structured collection of movie metadata sourced from **The Movie Database (TMDB)**, covering films released between 1900 and 2025. 
+This project provides C++ implementations of multidimensional data structures —specifically **KD-Trees**, **Quadtrees**, and **R-Trees**— alongside **Locality-Sensitive Hashing (LSH)** for 5D data. The dataset consists of a cleaned and structured collection of movie metadata sourced from **The Movie Database (TMDB)**, covering films released between 1900 and 2025. 
 
 The original dataset is available on Kaggle:  
 [Kaggle Movies Dataset](https://www.kaggle.com/datasets/mustafasayed1181/movies-metadata-cleaned-dataset-19002025)
