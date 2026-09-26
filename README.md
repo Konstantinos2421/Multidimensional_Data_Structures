@@ -10,9 +10,9 @@ The original dataset is available on Kaggle:
 - **/movies csv data**: Folder containing the dataset (`.csv`) along with a dedicated README file explaining its schema.
 - **/results**: Folder where output files generated during execution are stored.
 - **utilities.cpp**: Helper classes and utility functions shared across all data structure implementations.
-- **KDTree.cpp**: Implementation and execution for KD-Trees.
-- **QuadTree.cpp**: Implementation and execution for Quadtrees.
-- **Rtree.cpp**: Implementation and execution for R-Trees.
+- **KDTree.cpp**: Implementation and execution entry point for KD-Trees.
+- **QuadTree.cpp**: Implementation and execution entry point for Quadtrees.
+- **Rtree.cpp**: Implementation and execution entry point for R-Trees.
 - **LSH.cpp**: Implementation of Locality-Sensitive Hashing (LSH) for similarity query.
 
 ## Execution Instructions
