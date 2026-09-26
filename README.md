@@ -16,13 +16,13 @@ A project that implements KDTrees, Quad Trees and R-Trees as well as LSH for 5D 
 ### Executing Instructions:
 Essentially the purpose of the project is to execute queries like:
 
-**Detect the N-top most similar Production-Company-Names\
+`Detect the N-top most similar Production-Company-Names\
 of Movies\
 with runtime from 30 up to 60 minutes,\
 vote-average from 3 up to 5,\
 took popularity from 3 up to 6,\
 the origin-language is ‘US’ or ‘GB’\
-and released during 2000 up to 2020**
+and released during 2000 up to 2020`
 
 Firstly, one of the following files have to be executed:
 - KDTree.cpp
