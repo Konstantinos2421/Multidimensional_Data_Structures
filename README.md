@@ -23,7 +23,7 @@ with runtime from 30 up to 60 minutes,
 vote-average from 3 up to 5,
 took popularity from 3 up to 6,
 the origin-language is ‘US’ or ‘GB’
-and released during 2000 up to 2020
+and released during 2000 up to 2020.
 ```
 
 Firstly, one of the following files have to be executed:
