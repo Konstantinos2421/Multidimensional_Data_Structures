@@ -31,4 +31,4 @@ Firstly, one of the following files have to be executed:
 - QuadTree.cpp
 - RTree.cpp
 
-In these files the building of the corresponding data structure is done and then a range query is executed. The range is defined in the main function of each file. The execution of these files returns the result of the range query in the query_result.csv file in the results folder. Next, the file LSH.cpp have to be executed in order to execute the similarity query 
+In these files the building of the corresponding data structure is done and then a range query is executed. The range is defined in the main function of each file. The execution of these files returns the result of the range query in the query_result.csv file in the results folder. Next, the file LSH.cpp have to be executed in order to execute the similarity query to find the N-top most similar production-companies among the movies that were returned. The N parameter is also defined in the main function of the file.
