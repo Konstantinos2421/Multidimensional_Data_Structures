@@ -1,4 +1,4 @@
-# Multidimensional_Data_Structures
+# Multidimensional Data Structures
 A project that implements KDTrees, Quad Trees and R-Trees as well as LSH for 5D data using C++. This dataset contains a cleaned and structured collection of movie metadata sourced from The Movie Database(TMDB), covering films released between 1900 and 2025. The dataset can be found also in the link below:
 
 [Kaggle Movies Dataset](https://www.kaggle.com/datasets/mustafasayed1181/movies-metadata-cleaned-dataset-19002025)
