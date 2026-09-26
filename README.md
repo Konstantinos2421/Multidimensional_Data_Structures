@@ -26,7 +26,7 @@ The main objective of this project is to perform complex range filtered similari
 > *Original Language: 'US' or 'GB'*\
 > *Release Year: 2000 to 2020"*
 
-### Steps to Run:
+### Steps to Run the Project:
 
 1. **Execute one of the Data Structures Indexing files:**
    - `KDTree.cpp`
