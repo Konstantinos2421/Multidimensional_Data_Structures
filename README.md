@@ -10,10 +10,10 @@ The original dataset is available on Kaggle:
 - **/movies csv data**: Folder containing the dataset (`.csv`) along with a dedicated README file explaining its schema.
 - **/results**: Folder where output files generated during execution are stored.
 - **utilities.cpp**: Helper classes and utility functions shared across all data structure implementations.
-- **KDTree.cpp**: Implementation and execution entry point for KD-Trees.
-- **QuadTree.cpp**: Implementation and execution entry point for Quadtrees.
-- **Rtree.cpp**: Implementation and execution entry point for R-Trees.
-- **LSH.cpp**: Implementation of Locality-Sensitive Hashing (LSH) for similarity search.
+- **KDTree.cpp**: Implementation and execution for KD-Trees.
+- **QuadTree.cpp**: Implementation and execution for Quadtrees.
+- **Rtree.cpp**: Implementation and execution for R-Trees.
+- **LSH.cpp**: Implementation of Locality-Sensitive Hashing (LSH) for similarity query.
 
 ## Execution Instructions
 
@@ -28,7 +28,7 @@ The main objective of this project is to perform complex range filtered similari
 
 ### Steps to Run:
 
-1. **Execute one of the Spatial Indexing files:**
+1. **Execute one of the Data Structures Indexing files:**
    - `KDTree.cpp`
    - `QuadTree.cpp`
    - `Rtree.cpp`
@@ -38,6 +38,5 @@ The main objective of this project is to perform complex range filtered similari
    The filtered subset of movies resulting from the range query will be saved to `results/query_result.csv`.
 
 2. **Execute LSH for Similarity Querying:**
-   - `LSH.cpp`
 
-   Run `LSH.cpp` to perform the Locality-Sensitive Hashing similarity search on the movies retrieved in Step 1. This step computes and outputs the top-$N$ most similar production companies. The parameter $N$ can be configured within the `main()` function of `LSH.cpp`.
+   Run `LSH.cpp` to perform the Locality-Sensitive Hashing similarity search on the movies retrieved in Step 1. This step computes and outputs the top-$N$ most similar production companies. The parameter $N$ can be configured within the `main()` function of `LSH.cpp`. The result of this execution will be saved to `results/LSH_similarity_result.txt`.
