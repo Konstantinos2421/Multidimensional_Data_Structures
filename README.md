@@ -1,34 +1,49 @@
 # Multidimensional Data Structures
-A project that implements KDTrees, Quad Trees and R-Trees as well as LSH for 5D data using C++. This dataset contains a cleaned and structured collection of movie metadata sourced from The Movie Database(TMDB), covering films released between 1900 and 2025. The dataset can be found also in the link below:
 
+This project provides C++ implementations of multidimensional data structures—specifically **KD-Trees**, **Quadtrees**, and **R-Trees**—alongside **Locality-Sensitive Hashing (LSH)** for 5D data. 
+
+The underlying dataset consists of a cleaned and structured collection of movie metadata sourced from **The Movie Database (TMDB)**, covering films released between 1900 and 2025. 
+
+The original dataset is available on Kaggle:  
 [Kaggle Movies Dataset](https://www.kaggle.com/datasets/mustafasayed1181/movies-metadata-cleaned-dataset-19002025)
 
-## Project Files
-- **movies csv data:** A folder that contains the csv file with the dataset and a readme file that explains it.
-- **results:** A folder that contains the results that are returned from executing the code.
-- **utilities.cpp:** This file implements general classes and functions that are useful for the implementation of all the other data structures.
-- **KDTree.cpp:** The source code for implementing KDTrees.
-- **QuadTree.cpp:** The source code for implementing Quad Trees.
-- **Rtree.cpp:** The source code for implementing R-Trees.
-- **LSH.cpp** The source code for implementing Locality Sensitive Hashing.
+---
 
+## Project Structure
 
-## Executing Instructions
-Essentially the purpose of the project is to execute queries like:
+- **movies csv data/**: Folder containing the dataset (`.csv`) along with a dedicated README file explaining its schema.
+- **results/**: Folder where output files generated during execution are stored.
+- **utilities.cpp**: Helper classes and utility functions shared across all data structure implementations.
+- **KDTree.cpp**: Implementation and execution entry point for KD-Trees.
+- **QuadTree.cpp**: Implementation and execution entry point for Quadtrees.
+- **Rtree.cpp**: Implementation and execution entry point for R-Trees.
+- **LSH.cpp**: Implementation of Locality-Sensitive Hashing (LSH) for similarity search.
 
-```
-Detect the N-top most similar Production-Company-Names
-of Movies
-with runtime from 30 up to 60 minutes,
-vote-average from 3 up to 5,
-took popularity from 3 up to 6,
-the origin-language is ‘US’ or ‘GB’
-and released during 2000 up to 2020.
-```
+---
 
-Firstly, one of the following files have to be executed:
-- KDTree.cpp
-- QuadTree.cpp
-- RTree.cpp
+## Execution Instructions
 
-In these files the building of the corresponding data structure is done and then a range query is executed. The range is defined in the main function of each file. The execution of these files returns the result of the range query in the query_result.csv file in the results folder. Next, the file LSH.cpp have to be executed in order to execute the similarity query to find the N-top most similar production-companies among the movies that were returned. The N parameter is also defined in the main function of the file.
+The main objective of this project is to perform complex range filtered similarity queries, such as:
+
+> *"Find the Top-N most similar production companies for movies that meet the following criteria:*
+> - *Runtime: 30 to 60 minutes*
+> - *Vote Average: 3 to 5*
+> - *Popularity: 3 to 6*
+> - *Original Language: 'US' or 'GB'*
+> - *Release Year: 2000 to 2020"*
+
+### Steps to Run:
+
+1. **Execute one of the Spatial Indexing files:**
+   - `KDTree.cpp`
+   - `QuadTree.cpp`
+   - `Rtree.cpp`
+
+   Running any of these files builds the respective data structure and executes a range query over the 5D dataset. The search ranges can be modified directly within the `main()` function of each file. 
+   
+   The filtered subset of movies resulting from the range query will be saved to `results/query_result.csv`.
+
+2. **Execute LSH for Similarity Querying:**
+   - `LSH.cpp`
+
+   Run `LSH.cpp` to perform the Locality-Sensitive Hashing similarity search on the movies retrieved in Step 1. This step computes and outputs the top-$N$ most similar production companies. The parameter $N$ can be configured within the `main()` function of `LSH.cpp`.
