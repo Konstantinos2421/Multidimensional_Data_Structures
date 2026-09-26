@@ -39,4 +39,4 @@ The main objective of this project is to perform complex range filtered similari
 
 2. **Execute LSH for Similarity Querying:**
 
-   Run `LSH.cpp` to perform the Locality-Sensitive Hashing similarity search on the movies retrieved in Step 1. This step computes and outputs the $top-N$ most similar production companies. The parameter $N$ can be configured within the `main()` function of `LSH.cpp`. The result of this execution will be saved to `results/LSH_similarity_result.txt`.
+   Run `LSH.cpp` to perform the Locality-Sensitive Hashing similarity search on the movies retrieved in Step 1. This step computes and outputs the top-N most similar production companies. The parameter $N$ can be configured within the `main()` function of `LSH.cpp`. The result of this execution will be saved to `results/LSH_similarity_result.txt`.
