@@ -3,7 +3,7 @@ A project that implements KDTrees, Quad Trees and R-Trees as well as LSH for 5D 
 
 [Kaggle Movies Dataset](https://www.kaggle.com/datasets/mustafasayed1181/movies-metadata-cleaned-dataset-19002025)
 
-### Project Files:
+## Project Files:
 - **movies csv data:** A folder that contains the csv file with the dataset and a readme file that explains it.
 - **results:** A folder that contains the results that are returned from executing the code.
 - **utilities.cpp:** This file implements general classes and functions that are useful for the implementation of all the other data structures.
@@ -13,7 +13,7 @@ A project that implements KDTrees, Quad Trees and R-Trees as well as LSH for 5D 
 - **LSH.cpp** The source code for implementing Locality Sensitive Hashing.
 
 
-### Executing Instructions:
+## Executing Instructions:
 Essentially the purpose of the project is to execute queries like:
 
 ```
