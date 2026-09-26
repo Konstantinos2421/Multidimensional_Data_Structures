@@ -7,8 +7,8 @@ The original dataset is available on Kaggle:
 
 ## Project Structure
 
-- **movies csv data/**: Folder containing the dataset (`.csv`) along with a dedicated README file explaining its schema.
-- **results/**: Folder where output files generated during execution are stored.
+- **/movies csv data**: Folder containing the dataset (`.csv`) along with a dedicated README file explaining its schema.
+- **/results**: Folder where output files generated during execution are stored.
 - **utilities.cpp**: Helper classes and utility functions shared across all data structure implementations.
 - **KDTree.cpp**: Implementation and execution entry point for KD-Trees.
 - **QuadTree.cpp**: Implementation and execution entry point for Quadtrees.
